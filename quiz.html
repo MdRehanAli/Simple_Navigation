@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="quiz.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter&family=Lobster&family=Mochiy+Pop+One&family=Montserrat&family=Permanent+Marker&family=Poppins&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="nav.css">
+
+    <style>
+        section {
+            margin: 50px 100px;
+            border: 2px solid salmon;
+            padding: 20px;
+            background-color: bisque;
+            border-radius: 20px;
+        }
+
+        .head {
+            color: blueviolet;
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <ul class="bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quiz.html">Quiz</a>
+                <ul class="dropdown">
+                    <li><a href="">Level 1</a></li>
+                    <li><a href="">Level 2</a></li>
+                    <li><a href="">Level 3</a></li>
+                    <li><a href="">Level 4</a></li>
+                </ul>
+
+            </li>
+            <li><a href="">Link-1</a></li>
+            <li><a href="">Link-2</a></li>
+            <li><a href="">Link-3</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+
+
+    </nav>
+    <header>
+        <h1 class="head">
+            Welcome to the Quiz Section
+        </h1>
+    </header>
+
+    <section>
+
+        <h1> Simple Quiz games:</h1>
+        <h2>Part-1: Compulsory</h2>
+        <h3>Fill all the boxes with valid information</h3>
+
+        <form action="">
+
+            <div>
+                <p>Name:
+                    <input type="text" name="" id="" placeholder="Enter your name" required>
+                </p>
+                <p>Email:
+                    <input type="text" name="" id="" placeholder="Enter your email address" required>
+                </p>
+                <p>Phone:
+                    <input type="text" name="" id="" placeholder="Enter your contact number" required>
+                </p>
+            </div>
+            <h2>Let's start for the first round</h2>
+            <h3>choose the correct ans. If more than one answer seems corret, you can mark as many.</h3>
+
+            <fieldset>
+                <legend>1. Html stands for ______</legend>
+                <p>
+                    <label for="op1">
+                        <input type="radio" name="html" id="op1"> How To Meet Lady
+                    </label>
+                </p>
+                <p>
+                    <label for="op2">
+                        <input type="radio" name="html" id="op2"> Hyper Text Markup Language
+                    </label>
+                </p>
+                <p>
+                    <label for="op3">
+                        <input type="radio" name="html" id="op3"> None of the above
+                    </label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>2. What is the fullform of CSS?</legend>
+                <p>
+                    <label for="op1">
+                        <input type="checkbox" name="CSS" id="op1"> Cash Style Sheets
+                    </label>
+                </p>
+                <p>
+                    <label for="op2">
+                        <input type="checkbox" name="CSS" id="op2"> Cosmos Sound Studio
+                    </label>
+                </p>
+                <p>
+                    <label for="op3">
+                        <input type="checkbox" name="CSS" id="op3"> Cascading Short Shoe
+                    </label>
+                </p>
+                <p>
+                    <label for="op4">
+                        <input type="checkbox" name="CSS" id="op4"> Cascading Style Sheets
+                    </label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>3. Which one is a paragraph tag? </legend>
+                <P>
+                    <label for="p">
+                        <input type="radio" name="paragraph" id="p">
+                    </label> p
+                </P>
+                <P>
+                    <label for="para">
+                        <input type="radio" name="paragraph" id="para"> para
+                    </label>
+                </P>
+                <P>
+                    <label for="paragraph">
+                        <input type="radio" name="paragraph" id="paragraph"> paragraph
+                    </label>
+                </P>
+                <P>
+                    <label for="prg">
+                        <input type="radio" name="paragraph" id="prg"> prg
+                    </label>
+                </P>
+            </fieldset>
+
+            <fieldset>
+                <legend>4.which one is not a tag in html?</legend>
+                <p>
+                    <label for="legend">
+                        <input type="checkbox" name="not_a_tag" id="legend"> legend
+                    </label>
+                </p>
+                <p>
+                    <label for="strike">
+                        <input type="checkbox" name="not_a_tag" id="strike"> strike
+                    </label>
+                </p>
+                <p>
+                    <label for="master">
+                        <input type="checkbox" name="not_a_tag" id="master"> master
+                    </label>
+                </p>
+                <p>
+                    <label for="master">
+                        <input type="checkbox" name="not_a_tag" id="master"> progress
+                    </label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend> 5.Which one is not an attribute?</legend>
+                <p>
+                    <label for="href">
+                        <input type="radio" name="not_attribute" id="href"> href=" "
+                    </label>
+                </p>
+                <p>
+                    <label for="target">
+                        <input type="radio" name="not_attribute" id="target"> target=" "
+                    </label>
+                </p>
+                <p>
+                    <label for="src">
+                        <input type="radio" name="not_attribute" id="src"> src=" "
+                    </label>
+                </p>
+                <p>
+                    <label for="img">
+                        <input type="radio" name="not_attribute" id="img"> img=" "
+                    </label>
+                </p>
+            </fieldset>
+
+            <p>Your opinion:
+                <br>
+                <textarea placeholder="Write your opinion..." name="Opinion" id="" cols="30" rows="10"></textarea>
+            </p>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+</body>
+
+</html>
